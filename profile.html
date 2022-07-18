@@ -25,17 +25,19 @@
 
         <div class="col">
           <div class="d-flex justify-content-start p-5">
-            <span class="fw-bold fs-2 head-logo">Zwallet</span>
+            <span class="fw-bold fs-2 head-logo"><a  class="text-decoration-none" href="/home.html">Zwallet</a></span>
           </div>
         </div>
 
         <div class="col">
           
           <div class="d-flex align-items-center justify-content-end p-5">
+            <a class="text-decoration-none text-muted" href="/profile.html">
               <div>
                 <img src="/assets/img/robert.png" alt="head-profile">
               </div>
-              
+            </a>
+            
               <div class="d-flex flex-column head-wrap">
                 <span class="fw-bold">Robert Chandler</span>
                 <span class="fw-normal prof-num">+62 8139 3877 7946</span>
@@ -57,27 +59,27 @@
           <div class="d-flex flex-column gap-5">
               <div class="d-flex flex-row gap-3 icon-nav">
                 <i data-feather="grid"></i>
-                <span>Dashboard</span>
+                <span><a class="text-decoration-none text-muted" href="/history.html">Dashboard</a></span>
               </div>
 
               <div class="d-flex flex-row gap-3 icon-nav">
               <i data-feather="arrow-up"></i>
-              <span>Transfer</span>
+              <span><a class="text-decoration-none text-muted" href="/searchReveicer.html">Transfer</a></span>
               </div>
 
               <div class="d-flex flex-row gap-3 icon-nav">
               <i data-feather="plus"></i>
-              <span>Top Up</span>
+              <span><a class="text-decoration-none text-muted" href="/topUp.html">Top Up</a></span>
               </div>
 
               <div class="d-flex flex-row gap-3 icon-nav">
               <i data-feather="user"></i>
-              <span>Profile</span>
+              <span><a class="text-decoration-none" href="/profile.html">Profile</a></span>
              </div>
 
              <div class="d-flex flex-row gap-3 logout icon-nav">
               <i data-feather="log-out"></i>
-              <span>Logout</span>
+              <span><a class="text-decoration-none text-muted" href="/login.html">Logout</a></span>
              </div>
          
           </div>
@@ -106,25 +108,32 @@
               
               <div class="d-flex flex-column gap-2 mx-3">
                 
-                <div class="d-flex justify-content-between profile-detail-wrap">
-                  <span class="text-muted">Personal Information</span>
-                  <i data-feather="arrow-right"></i>
-                </div>
-                
-                <div class="d-flex justify-content-between profile-detail-wrap">
-                  <span class="text-muted">Change Password</span>
-                  <i data-feather="arrow-right"></i>
-                </div>
+                <a class="text-decoration-none text-muted" href="/personalInfo.html">
+                  <div class="d-flex justify-content-between profile-detail-wrap">
+                    <span class="text-muted">Personal Information</span>
+                    <i data-feather="arrow-right"></i>
+                  </div>
+                </a>
 
-                <div class="d-flex justify-content-between profile-detail-wrap">
-                  <span class="text-muted">Change PIN</span>
-                  <i data-feather="arrow-right"></i>
-                </div>
+                <a class="text-decoration-none text-muted" href="/changePassword.html">
+                  <div class="d-flex justify-content-between profile-detail-wrap">
+                    <span class="text-muted">Change Password</span>
+                    <i data-feather="arrow-right"></i>
+                  </div>
+                </a>
 
-                <div class="d-flex justify-content-between profile-detail-wrap">
-                  <span class="text-muted">Logout</span>
-                </div>
-              
+                <a class="text-decoration-none text-muted" href="/changePin.html">
+                  <div class="d-flex justify-content-between profile-detail-wrap">
+                    <span class="text-muted">Change PIN</span>
+                    <i data-feather="arrow-right"></i>
+                  </div>
+                </a>
+
+                <a class="text-decoration-none text-muted" href="/login.html">
+                  <div class="d-flex justify-content-between profile-detail-wrap">
+                    <span class="text-muted">Logout</span>
+                  </div>
+                </a>
               </div>
         
             </div>
@@ -132,7 +141,7 @@
         <!-- End of Transfer -->
       </main>
       <!-- Start of Footer -->
-      <div class="d-flex justify-content-between flex-row p-3 footer-wrap">
+      <div class="d-flex justify-content-between flex-row p-5 footer-wrap">
         <div>
           <span class="fw-normal footer-text">2020 Zwallet. All right reserved.</span>
         </div>

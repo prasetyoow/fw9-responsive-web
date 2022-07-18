@@ -24,6 +24,7 @@ header {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 700px;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .signup {
@@ -39,6 +40,7 @@ header {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 700px;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .rectangle {
@@ -71,6 +73,7 @@ header {
   background: #6379F4;
   border: 2px solid #FFFFFF;
   font-family: 'Nunito Sans', sans-serif;
+  cursor: pointer;
 }
 
 .h1-topleft {
