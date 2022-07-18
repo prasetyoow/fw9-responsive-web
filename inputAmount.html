@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Search Receiver</title>
+    <title>Input Amount</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -84,70 +84,43 @@
         </div>
         <!-- End of Nav -->
         
-        <!-- Start of History -->
-        <div class="col-8 d-flex flex-column gap-3 p-5 history-wrap">
-            <div>
-              <span class="fw-bold">Search Receiver</span>
-            </div>
-            <!-- Start of Search Contact -->
-            <div class="input-group flex-nowrap search-cont">
-              <span class="input-group-text icon-login">
-                <i data-feather="search"></i>
-              </span>
-              <input type="text" class="form-control input-login" placeholder="Search receiver here">
-            </div>
-
-
-            <div class="d-flex flex-column contact-wrap">
-              <div class="d-flex">
-                <div class="d-flex py-3 mx-3">
-                  <div>
-                    <img src="/assets/img/suhi.png" alt="prof-sam">
-                  </div>
-                  <div class="d-flex flex-column cont-text">
-                    <span class="trans-name">Samuel Sushi</span>
-                    <span class="text-muted">+62 813-8492-9994</span>
-                  </div>
-                </div>
+        <!-- Start of Transfer -->
+        <div class="col-8 d-flex flex-column transfer-wrap">
+            <div class="d-flex flex-column py-2 my-2 mx-3">
+              <div class="px-3">
+                <span>Transfer Money</span>
               </div>
-
-               <div class="d-flex prof-wrap">
-                <div class="d-flex py-3 mx-3">
-                  <div>
-                    <img src="/assets/img/momo.png" alt="prof-momo">
-                  </div>
-                  <div class="d-flex flex-column cont-text">
-                    <span class="trans-name">Momo Taro</span>
-                    <span class="text-muted">+62 812-4343-6731</span>
-                  </div>
+                <div class="d-flex gap-3 py-4 px-3 my-3 profile-wrap">
+                    <div>
+                        <img src="/assets/img/samuel.png" alt="cont-samuel">
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <span>Samuel Suhi</span>
+                        <span class="text-muted">+62 813-8492-9994</span>
+                    </div>
                 </div>
-               </div>
-
-
-                <div class="d-flex prof-wrap">
-                  <div class="d-flex py-3 mx-3">
-                    <img src="/assets/img/Jessica Keen.png" alt="prof-jess">
-                  </div>
-                  <div class="d-flex flex-column cont-text">
-                    <span class="trans-name">Jessica Keen</span>
-                    <span class="text-muted">+62 811-3452-5252</span>
-                  </div>
-                </div>
-
-                <div class="d-flex prof-wrap">
-                  <div class="d-flex py-3 mx-3">
-                    <img src="/assets/img/Michael Le.png" alt="prof-le">
-                  </div>
-                  <div class="d-flex flex-column cont-text">
-                    <span class="trans-name">Michael Le</span>
-                    <span class="text-muted">+62 810-4224-4613</span>
-                  </div>
-                </div>
+            
+              <div class="py-4 px-3">
+                  <span class="text-muted">Type the amount you want to transfer and then <br> press continue to the next steps. </span>
+              </div>
+              <div class="nominal">
+                <input type="number" maxlength="2" min="0" max="100">
+              </div>
+              <div class="balance-avail">
+                <span>Rp120.000 Available</span>
+              </div>
+              <div class="input-group flex-nowrap align-items-center notes-wrap">
+                <span class="input-group-text icon-login">
+                  <i data-feather="edit-2"></i>
+                </span>
+                <input type="text" class="form-control input-login text-align-center" placeholder="Add some notes">
+              </div>
+              <div class="d-grid justify-content-end">
+                <button class="btn btn-primary btn-lg fw-bold button-login">Continue</button>
+              </div>
             </div>
-
-          </div>
         </div>
-        <!-- End of History -->
+        <!-- End of Transfer -->
       </main>
       <!-- Start of Footer -->
       <div class="d-flex justify-content-between flex-row p-3 footer-wrap">
