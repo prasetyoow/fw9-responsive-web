@@ -196,6 +196,7 @@ span {
 }
 
 .money {
+  margin-top: 100px;
   margin-left: 570px;
   text-align: center;
   width: 720px;
@@ -253,6 +254,12 @@ span {
   display: flex;
   justify-content: space-around;
   margin-left: 200px;
+}
+
+.phone-transaction {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
 }
 
 .text-features {
