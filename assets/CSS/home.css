@@ -313,3 +313,8 @@ header {
 .trash-bin {
   color: #BBBBBE
 }
+
+.cls-btn {
+  border: unset;
+  background-color: unset;
+}
