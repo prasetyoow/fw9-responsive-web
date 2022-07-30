@@ -83,3 +83,17 @@ body {
 .pin-border:focus {
   outline: none;
 }
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+  .background-auth {
+    height: 10px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+
+  .bg-phone {
+    display: none;
+  }
+}

@@ -61,3 +61,17 @@ body {
 .button-login:hover {
   background: #7e8cdf;
 }
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+  .background-auth {
+    height: 10px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+
+  .bg-phone {
+    display: none;
+  }
+}
