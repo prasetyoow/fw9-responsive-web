@@ -17,7 +17,7 @@ header {
 }
 
 .head-logo {
-  color: #6379F4;
+  color: #EC9B3B;
   cursor: pointer;
 }
 
@@ -34,11 +34,23 @@ header {
 }
 
 .icon-nav {
-  color: rgba(58, 61, 66, 0.8);
+  color: #EC9B3B;
+}
+
+.navbar-color {
+  color: #EC9B3B;
+}
+
+.navbar-color:hover {
+  color: #EC9B3B;
 }
 
 .icon-nav:hover {
-  color: #6379F4
+  color: #EC9B3B;
+}
+
+.icon-nav:active {
+ color: #EC9B3B;;
 }
 
 .logout {
@@ -46,7 +58,7 @@ header {
 }
 
 .balance-wrap {
-  background: #6379F4;
+  background: #EC9B3B;
   border-radius: 20px;
   padding-right: 500px;
 }
@@ -137,6 +149,26 @@ header {
   background: rgba(58, 61, 66, 0.1);
   border-radius: 12px;
   height: 54px;
+  border: unset !important;
+}
+
+.form-contact {
+  background: unset !important;
+  border: unset !important;
+}
+
+.amount-form {
+  font-size: 42px;
+  border: unset !important;
+  text-align: center;
+}
+
+.form-notes {
+  background: unset !important;
+  border-top: unset !important;
+  border-left: unset !important;
+  border-right: unset !important;
+  border-bottom: black 2px solid;
 }
 
 .transfer-wrap {
@@ -159,7 +191,7 @@ header {
 }
 
 .footer-wrap {
-  background: #6379F4;
+  background: #EC9B3B;
 }
 
 .footer-text {
@@ -173,7 +205,7 @@ header {
 }
 
 .button-login {
-  background: #6379F4;
+  background: #EC9B3B;
   border: unset;
   height: 57px;
   width: 170px;
@@ -183,17 +215,21 @@ header {
 }
 
 .button-success {
-  background: #6379F4;
+  background: #EC9B3B;
   border: unset;
   height: 47px;
   width: 197px;
+}
+
+.button-success:hover {
+  background-color: #e0902e;
 }
 
 .button-download {
   background: rgba(99, 121, 244, 0.15);
   box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
   border-radius: 12px;
-  color: #6379F4;
+  color: #EC9B3B;
   border: unset;
   width: 243px;
 }
@@ -206,13 +242,13 @@ header {
   background: rgba(99, 121, 244, 0.15);
   box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
   border-radius: 12px;
-  color: #6379F4;
+  color: #EC9B3B;
   border: unset;
   width: 57px;
 }
 
 .button-login:hover {
-  background: #7e8cdf;
+  background: #e0902e;
 }
 
 .icon-login {
@@ -258,36 +294,36 @@ header {
 }
 
 .icon-change {
-  color: rgba(99, 121, 244, 0.2);;
+  color: #EC9B3B;
   background: unset;
   border: unset;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #EC9B3B;
 }
 
 .icon-change:focus {
-  color: #7e8cdf;
-  border-bottom: #7e8cdf;
+  color: #EC9B3B;
+  border-bottom: #EC9B3B;
 }
 
 .input-change {
-  color: rgba(99, 121, 244, 0.2);
   border: unset;
   border-bottom: 1px solid gray;
 }
 
 .input-change:focus {
-  border-color: #6379F4;
+  border-color: #EC9B3B;
   box-shadow: unset;
 }
 
 .button-change {
-  background: #6379F4;
+  background: #EC9B3B;
   box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
   border-radius: 12px;
+  border: unset;
 }
 
 .button-change:hover {
-  background: #7e8cdf;
+  background: #e0902e;
 }
 
 .pin-num {

@@ -6,7 +6,8 @@ body {
 }
 
 .background-auth {
-  background: url(/assets/img/auth-bg.png);
+  background: url(/assets/img/bgnew.png);
+  background-color: #EC9B3B;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -38,7 +39,7 @@ body {
 }
 
 .text {
-  color: #6379F4;
+  color: #EC9B3B;
 }
 
 .input-login {
@@ -48,18 +49,18 @@ body {
 }
 
 .input-login:focus {
-  border-color: #6379F4;
+  border-color: #EC9B3B;
   box-shadow: unset;
 }
 
 .button-login {
-  background: #6379F4;
+  background: #EC9B3B;
   border: unset;
   min-height: 57px;
 }
 
 .button-login:hover {
-  background: #7e8cdf;
+  background: #e0902e;
 }
 
 .pin-wrap {
